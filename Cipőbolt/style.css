@@ -1,0 +1,114 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(247, 210, 0);
+  }
+
+  .navbar {
+    background-color: rgb(247, 210, 0);
+    color: black;
+    border-radius: 5px;
+    justify-content: flex-start;
+  }
+
+  a{
+    margin-right: 10px;
+    font-weight: bolder;
+  }
+
+ .nav-link {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bolder;
+    transition: all 0.3s;
+  }
+
+.nav-link:hover {
+    color: rgb(65, 0, 139);
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px #f5f5f5;
+  }
+
+  .container {
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    color: black;
+    max-width: 800px;
+    margin: 0 auto 40px;
+  }
+
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .card {
+    width: 18rem;
+    background: rgba(255, 255, 255, 0.8);
+    border: black solid 1px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+
+  .card img {
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .card-body {
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    background-color: rgb(247, 210, 0);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: rgb(211, 179, 1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  }
