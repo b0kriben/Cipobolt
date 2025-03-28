@@ -47,8 +47,9 @@ body {
   .description {
     font-size: 1.2rem;
     color: black;
-    max-width: 800px;
+    max-width: auto;
     margin: 0 auto 40px;
+    text-align: left;
   }
 
   .card-deck {
